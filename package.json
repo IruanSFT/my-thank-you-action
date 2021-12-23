@@ -3,6 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "before-after-hook": "^2.2.2",
+    "deprecation": "^2.3.1",
+    "is-plain-object": "^5.0.0",
+    "node-fetch": "^2.6.6",
+    "once": "^1.4.0",
+    "tr46": "^0.0.3",
+    "tunnel": "^0.0.6",
+    "universal-user-agent": "^6.0.0",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0",
+    "wrappy": "^1.0.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "build": "ncc build src/action.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,13 +25,13 @@
     "type": "git",
     "url": "git+https://github.com/IruanSFT/my-thank-you-action.git"
   },
-  "author": "Colby Fayock",
+  "author": "iruan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IruanSFT/my-thank-you-action/issues"
   },
   "homepage": "https://github.com/IruanSFT/my-thank-you-action#readme",
-  "devDependencies": {
+  "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@vercel/ncc": "^0.27.0",
