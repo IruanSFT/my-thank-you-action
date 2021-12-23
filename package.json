@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/IruanSFT/my-thank-you-action#readme",
   "devDependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
     "@vercel/ncc": "^0.33.1"
+  },
+  "dependencies": {
+    "xhr2": "^0.2.1"
   }
 }
