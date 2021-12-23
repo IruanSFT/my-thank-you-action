@@ -17,13 +17,10 @@
     "url": "https://github.com/IruanSFT/my-thank-you-action/issues"
   },
   "homepage": "https://github.com/IruanSFT/my-thank-you-action#readme",
-  "dependencies": {
+  "devDependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@vercel/ncc": "^0.27.0",
     "node-fetch": "^2.6.1"
-  },
-  "devDependencies": {
-    "xhr2": "^0.2.1"
   }
 }
